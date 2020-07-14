@@ -14,7 +14,7 @@ This repo contains a simple shiny app and the needed files to build a Docker ima
 |   +-- renv/
 ```
 
-*   "cmd_script.txt": contains the lines of code that need to be run the command prompt in order to build and run the docker image.
+
 *   "Dockerfile": is the dockerfile contains the directions for Docker to build our image. 
 *   "test_docker.Rproj": this is the R project file for our app. It is beneficial to utilize R projects for packaging apps because we can not only apply version control but also utilize the renv package to easily take a precise snapshot of the software/versions used in this R project. This prevents dependence issues when building the Docker image. 
 *   "app.R": Shiny app
