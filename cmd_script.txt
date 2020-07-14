@@ -1,3 +1,0 @@
-docker build -t test-docker . 
-docker run -d --rm -p 3838:3838 test-docker
-localhost:3838
